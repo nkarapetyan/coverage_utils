@@ -1,0 +1,15 @@
+World: lake_murray_sensor.mpg
+
+Upper Left Latitude: 34.040239416480794 
+Upper Left Longitude: -81.23707064056055
+Bottom Right Latitude: 34.03941439358027 
+Bottom Right Longitude: -81.23535896224102
+
+Center Point LAT: 34.039725 //sensor location
+Center Point LONG: -81.236218
+
+Note: The image starts at 0 0 corrdinate which is the Upper left side
+Note: This is for the relative coordinates, based on lat long image size will be defined 
+
+-----
+sensor width: 5 meter

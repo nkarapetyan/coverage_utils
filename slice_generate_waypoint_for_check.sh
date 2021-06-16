@@ -1,0 +1,3 @@
+python tmp_from_jetyak/data_preprocessing.py icra_data_all/old_data/zig_zag_during_iser_out.csv
+python generate_waypoints.py
+

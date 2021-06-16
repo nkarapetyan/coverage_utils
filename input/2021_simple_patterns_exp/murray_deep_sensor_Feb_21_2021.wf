@@ -1,0 +1,20 @@
+World: deep_buoy_clean_map.png
+
+Upper Left Latitude: 34.04211 
+Upper Left Longitude: -81.23934
+Bottom Right Latitude: 34.03753
+Bottom Right Longitude: -81.23269
+
+# --- Sensor location -----#
+Center Point LAT: 34.03997 
+Center Point LONG: -81.23593
+
+Start Point LAT:  
+Start Point LONG: 
+
+Image Width: 994
+Image Height: 825
+
+-----
+sensor width: 12 meter
+turn radius: 5 meter
