@@ -117,9 +117,9 @@ def convert_xy_to_latlong(x,y, config_file):
     
     return lat_long_coordinates
 
-def convert_xy_to_latlong_jm(x, y, config_file):
+def convert_xy_to_latlong_db(x, y, config_file):
     '''
-    The way of lat lon is calculated is borrowed from Dubin's coverage
+    The way of lat lon is calculated in Dubin's coverage
     '''
     image_size, upper_long_lat, bottom_long_lat = get_world_information(config_file)
     

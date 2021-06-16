@@ -8,19 +8,25 @@ import pandas as pd
 import math
 import os
 
-from convert_to_world_coordinates import *
+from convert_coordinates import *
 
 '''
-generate_waypoints function that takes input file of xy coordinates
-and translates them into lat long
-
-NOTE: all tests and experimetns are in the test_generate_waypoints.py
+NOTE: all tests and experiments are in the test_generate_waypoints.py
 '''
 
 def generate_waypoints(input_xy_coord_file, config_file, option="m"):
     '''
-    input: input_xy_coord_file, config_file, option
-            option = m (stands for mission palnner) or c (csv file)
+    generate_waypoints function that takes input file of xy coordinates
+    and translates them into lat long
+
+    Parameters
+    ----------
+    input_xy_coord_file, config_file, option
+    option = m (stands for mission palnner) or c (csv file)
+
+    Return
+    ------
+    output: no return but creates file with _waypoints.txt or .csv format
     '''
 
     mission_file_name = os.path.splitext(input_xy_coord_file)[0] + '_waypoints.txt'

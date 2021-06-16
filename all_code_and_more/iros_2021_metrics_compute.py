@@ -1,7 +1,7 @@
 import time
 import datetime
 
-from convert_to_world_coordinates import *
+from convert_coordinates import *
 import pandas as pd
 
 #spiral 1

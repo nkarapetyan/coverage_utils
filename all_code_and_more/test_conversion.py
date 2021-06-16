@@ -15,7 +15,7 @@ import cv2 as cv
 import pandas as pd
 import math
 
-from convert_to_world_coordinates import *
+from convert_coordinates import *
 
 def main():
     #test_xy_to_latlong()
