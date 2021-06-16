@@ -1,7 +1,7 @@
 # Coverage Utilities
 
-Created by: Nare Karapetyan
-Maintained by: Nare Karapetyan
+Created and Maintained by: Nare Karapetyan
+
 contact: nare@email.sc.edu
 
 Created on July 16 2018
