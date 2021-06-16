@@ -22,7 +22,7 @@ The structure of this pakage is as follows:
 - trials/ 
 - README.md
 
-- all_code_and_more/ (utilities in this folder have not been tested in very long time and here are just for authors reference)
+- all_code_and_more/ (utilities in this folder have not been tested in a very long time and are here just for the author's reference)
 ---
 ## Getting started
 
@@ -43,4 +43,7 @@ Sample config file can be found in "input/2021_simple_patterns_exp/murray_sensor
 Sample execution and mission file creation can be found in test_generate_waypoints.py.
 Simply create your own experiment function similar to `generate_Feb_21_2021_simple_patterns() ` and execute it.
 
+
 ### License
+
+Note: Use this as a library, do not copy it, only reuse as a sperate library. 
