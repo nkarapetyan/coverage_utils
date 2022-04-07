@@ -92,6 +92,7 @@ def get_resolution(config_file):
     resolution = (x_resolution, y_resolution)
     return resolution
 
+#NOTE: CPP but the checking part for relative image size is not there
 def convert_xy_to_latlong(x,y, config_file):
     '''
 	Input: x y coordinates and config_file to calculate resolution
@@ -138,6 +139,7 @@ def convert_xy_to_latlong_db(x, y, config_file):
     
     return lat_long_coordinates
 
+#NOTE: in CPP
 def convert_latlong_to_xy(LONG, LAT, config_file):
     '''
     Input: LONG LAT and config file

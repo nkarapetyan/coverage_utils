@@ -48,7 +48,7 @@ def generate_waypoints(input_xy_coord_file, config_file, option="m"):
             line =point_file.readline()
 
             #FIXME: the config_file shouldn't always be oppened
-            (LAT, LONG) = convert_xy_to_latlong(int(x),int(y), config_file)
+            (LAT, LONG) = convert_xy_to_latlong(int(float(x)),int(float(y)), config_file)
             print(LAT, LONG)
             if option == "m":
                 out_line = str(cnt) + "\t" + str(1 if cnt==0 else 0)+ "\t" + str(0 if cnt==0 else 3) + "\t16\t"

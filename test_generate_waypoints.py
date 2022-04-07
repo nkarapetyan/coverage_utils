@@ -18,12 +18,46 @@ def main():
     #test_make_waypoint_file_icra19() #this is a code to test the location of after experiement data
     #test_fsr_data_make_waypoint()
     #generate_Feb_10_2021_simple_patterns()
-    generate_Feb_21_2021_simple_patterns()
+    #--#generate_Feb_21_2021_simple_patterns()
+    #generate_July_27_2021_lake_patterns()
+    generate_Feb_25_2022_bcd_lake_patterns()
 
 def test_generate_waypoints():
     test_generate_waypoints_congaree_long_sattelite()
     #test_generate_waypoints_congaree_safe()
     #test_generate_waypoints_congaree_long()
+
+def generate_Feb_25_2022_bcd_lake_patterns():
+    '''
+    Feb 25 2022 Lake BCD Patterns trial
+    '''
+    input_dir = "input/iros_2022_feb_25/"
+
+    skel_pttrn = "89_footprint_tourLines.txt"
+
+    config_file = "img_conf.wf"
+
+    out_file_type_m = "m"
+    out_file_type_c = "c"
+
+    generate_waypoints(input_dir + skel_pttrn, input_dir + config_file, out_file_type_m)
+    generate_waypoints(input_dir + skel_pttrn, input_dir + config_file, out_file_type_c)
+
+def generate_July_27_2021_lake_patterns():
+    '''
+    July 27 2021 Lake Skeleton Patterns trial
+    '''
+    input_dir = "input/lake_July_2021/"
+
+    skel_pttrn = "coordinates_nk_testing_from_jason.txt"
+
+    config_file = "find_starting_node_config.wf"
+
+    out_file_type_m = "m"
+    out_file_type_c = "c"
+
+    generate_waypoints(input_dir + skel_pttrn, input_dir + config_file, out_file_type_m)
+    generate_waypoints(input_dir + skel_pttrn, input_dir + config_file, out_file_type_c)
 
 def generate_Feb_10_2021_simple_patterns():
     '''

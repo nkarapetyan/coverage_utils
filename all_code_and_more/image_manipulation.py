@@ -8,7 +8,7 @@ import pandas as pd
 
 def main():
     #draw_on_white()
-    draw_point();
+    draw_point()
     #test_print_white_points()
 
 def test_print_white_points():

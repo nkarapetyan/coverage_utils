@@ -42,7 +42,7 @@ def convert_image_to_binary(in_file_name, out_file_name="default"):
     gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
     #ret, thresh = cv.threshold(gray,200,255, cv.THRESH_BINARY_INV)
     #FOR brigher TO BE WHITE 
-    ret, thresh = cv.threshold(gray,65,255, cv.THRESH_BINARY)
+    ret, thresh = cv.threshold(gray,220,255, cv.THRESH_BINARY_INV)
     if out_file_name == "default":
         file_components = os.path.splitext(in_file_name)
         out_file_name = str(file_components[0]) + "_binary" + str(file_components[1]) 

@@ -1,0 +1,17 @@
+World: 130_footprint_CRC_1Robots_exp1_sept_2021_out_cleaned.expand2.WayGraph.png
+
+Upper Left Latitude: 34.03349
+Upper Left Longitude: -81.25626
+Bottom Right Latitude: 34.01364
+Bottom Right Longitude: -81.22283
+
+# --- Sensor location -----#
+Start Point LAT: 34.0283 
+Start Point LONG: -81.22998
+
+Image Width: 780
+Image Height: 558
+
+-----
+sensor width: 12 meter #keep but this will be tweaked later
+turn radius: 5 meter

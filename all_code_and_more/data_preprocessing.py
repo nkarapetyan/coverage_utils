@@ -137,6 +137,8 @@ def add_seq_to_df(input_df):
         print("resulting dataframe is:", input_df)
     return input_df
 
+#def save_every_other_k_th_line(step):
+
 if __name__ == '__main__':
     main()
     assert len(sys.argv) == 3, "Usage: ./data_processing.py -o "OPTION" -s min max -f name_of_the_file"
