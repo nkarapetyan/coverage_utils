@@ -20,7 +20,27 @@ def main():
     #generate_Feb_10_2021_simple_patterns()
     #--#generate_Feb_21_2021_simple_patterns()
     #generate_July_27_2021_lake_patterns()
-    generate_Feb_25_2022_bcd_lake_patterns()
+    #generate_Feb_25_2022_bcd_lake_patterns()
+    genereate_nov_8_2022_CMDP_waypoints()
+
+def genereate_nov_8_2022_CMDP_waypoints():
+    '''
+    For CMDP UAV waypoints at UMD
+    '''
+
+    input_dir = "/rcp_dev_code/riverine_coverage_code/CPPlanner/field_trials/tests/data/"
+
+
+    xy_cmdp_path = "xy_path_uav_f3_cmdp_test_gm.txt"
+
+    config_file = "f3_site_actual_gm.wf"
+
+    out_file_type_m = "m"
+    out_file_type_c = "c"
+
+    generate_waypoints(input_dir + xy_cmdp_path, input_dir + config_file, out_file_type_m)
+    generate_waypoints(input_dir + xy_cmdp_path, input_dir + config_file, out_file_type_c)
+
 
 def test_generate_waypoints():
     test_generate_waypoints_congaree_long_sattelite()

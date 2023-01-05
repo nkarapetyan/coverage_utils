@@ -1,0 +1,18 @@
+World: input_dir = "/rcp_dev_code/riverine_coverage_code/CPPlanner/field_trials/tests/data/"
+xy_path_uav_f3_cmdp_test_gm.txt"
+
+Upper Left Latitude: 38.97435
+Upper Left Longitude: -76.92283
+Bottom Right Latitude: 38.97329
+Bottom Right Longitude: -76.92146
+
+# --- Sensor location -----#
+Start Point LAT: 34.0283 
+Start Point LONG: -81.22998
+
+Image Width: 1085
+Image Height: 909
+
+-----
+sensor width: 12 meter #keep but this will be tweaked later
+turn radius: 5 meter
