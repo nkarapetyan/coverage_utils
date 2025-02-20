@@ -21,7 +21,27 @@ def main():
     #--#generate_Feb_21_2021_simple_patterns()
     #generate_July_27_2021_lake_patterns()
     #generate_Feb_25_2022_bcd_lake_patterns()
-    genereate_nov_8_2022_CMDP_waypoints()
+    #genereate_nov_8_2022_CMDP_waypoints()
+    genereate_Aug_17_2023_agcvg_waypoints()
+
+def genereate_Aug_17_2023_agcvg_waypoints():
+    '''
+    For AGCVG UAV points
+    '''
+
+    input_dir = "/rcp_dev_code/riverine_coverage_code/CPPlanner/air_ground_cvg/tests/data/f3/v4_smaller/out_mission/"
+
+
+    xy_path = "uav_cvg_rv_path_feb_25.txt"
+    xy_path = "ugv_cvg_rv_path_feb_25.txt"
+
+    config_file = "f3_site_actual_gm.wf"
+
+    out_file_type_m = "m"
+    out_file_type_c = "c"
+
+    generate_waypoints(input_dir + xy_path, input_dir + config_file, out_file_type_m)
+    generate_waypoints(input_dir + xy_path, input_dir + config_file, out_file_type_c)
 
 def genereate_nov_8_2022_CMDP_waypoints():
     '''
